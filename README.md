@@ -27,7 +27,7 @@ Este proyecto es un cotizador de seguros desarrollado en React. Permite a los us
 Siga estos pasos para ejecutar el proyecto en su máquina local:
 
 ### 1. Clonar el Repositorio
-`git clone https://ju4n113.github.io/Proyecto_integrador_final_React/`
+`git clone https://github.com/Ju4n113/Proyecto_integrador_final_React.git`
 
 ### 2. Navegar al Directorio del Proyecto
 `cd Proyecto_integrador_final_React`
@@ -62,6 +62,9 @@ Explore el historial de cotizaciones y realice acciones como borrar o imprimir c
 * HTML5
 * CSS3
 
+## Links
+
+[Links](https://ju4n113.github.io/Proyecto_integrador_final_React/)
 
 ## Authors
 
