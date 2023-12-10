@@ -27,10 +27,10 @@ Este proyecto es un cotizador de seguros desarrollado en React. Permite a los us
 Siga estos pasos para ejecutar el proyecto en su máquina local:
 
 ### 1. Clonar el Repositorio
-`git clone <URL_DEL_REPOSITORIO>`
+`git clone https://ju4n113.github.io/Proyecto_integrador_final_React/`
 
 ### 2. Navegar al Directorio del Proyecto
-`cd nombre-del-proyecto`
+`cd Proyecto_integrador_final_React`
 
 ### 3.	Instalar Dependencias
 Asegúrese de tener Node.js instalado en su máquina. Luego, ejecute:
