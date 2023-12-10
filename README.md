@@ -13,10 +13,11 @@ Este proyecto es un cotizador de seguros desarrollado en React. Permite a los us
 * Historial de cotizaciones con opciones de gestión.
 * Diseño responsivo para dispositivos móviles y pantallas más grandes.
 
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://i.imgur.com/slCeYay.png)
 
 > Cotizador.
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+
+![](https://i.imgur.com/KJWgioJ.png)
 
 > Historial de cotizaciones.
 
