@@ -1,0 +1,293 @@
+/* Agrega estilos al App.css */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  background-color: #fff;
+  padding: 3%;
+  border-radius: 8px;
+  margin: 2% auto;
+}
+
+.header {
+  background-color: #ff9800;
+  padding: 2% 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mensaje {
+  background-color: #454546;
+  padding: 1% 0;
+  border-radius: 0 0 8px 8px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.error {
+  padding: 10px 0;
+  text-align: center;
+  color: red;
+  margin: 0;
+}
+@media only screen and (min-width: 769px) {
+form .column div label {
+  display: block;
+  width: 100%; 
+  margin-bottom: 6px;
+  color: #605e5e;
+}
+
+form .column div select,
+form .column div input {
+  width: calc(100% - 20px); /* Resta el doble del relleno (10px a cada lado) para compensar */
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: #bdbdbd;
+  box-sizing: border-box; 
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .column div {
+    width: 100%;
+  }
+
+  .mensaje {
+    font-size: 16px;
+  }
+}
+
+
+form {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form .column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+form .column div {
+  width: 80%;
+  margin-bottom: 20px; 
+}
+
+
+form .column div label {
+  color: #555;
+  margin-bottom: 6px;
+  display: block;
+}
+
+form .column div select,
+form .column div input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: #bdbdbd;
+  box-sizing: border-box;
+}
+
+form .column div select {
+  width: calc(100% - 20px); /* Resta el doble del relleno (10px a cada lado) para compensar */
+}
+
+form .column div select,
+form .column div input {
+  width: calc(100% - 20px); /* Resta el doble del relleno (10px a cada lado) para compensar */
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: #bdbdbd;
+  box-sizing: border-box; 
+}
+
+
+form .column div select {
+  box-sizing: border-box; 
+}
+
+
+.btnSubmit input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btnSubmit input[type="submit"]:hover {
+  background-color: #f57c00;
+}
+
+
+/* Estilos específicos para el historial */
+.historial table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.historial th, .historial td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  color: #333; 
+}
+
+.historial th {
+  background-color: #ff9800;
+  color: white;
+}
+
+.historial .seleccionada {
+  background-color: #817f7f;
+}
+
+.ver-historial-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #edaf33; 
+  color: #5e5e5e;
+  border: 2px solid #595959;
+  border-radius: 6px;
+  padding: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 18px; 
+  padding: 12px 20px; 
+}
+
+.ver-historial-btn:hover {
+  background-color: #ff9800;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 20px; 
+}
+
+/* Estilos adicionales para los botones en el historial */
+.historial .botones-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.historial .botones-container button {
+  flex: 1;
+  margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  form .column div {
+    width: 100%;
+  }
+
+  .mensaje {
+    font-size: 16px;
+  }
+
+  /* Agrega estilos para el formulario en dispositivos móviles */
+  form {
+    padding: 10px;
+  }
+
+  form .column div {
+    margin-bottom: 10px;
+  }
+
+  form .column div select,
+  form .column div input {
+    width: 100%;
+  }
+
+  .historial table {
+    margin-top: 10px;
+    font-size: 14px; 
+  }
+
+  .historial .botones-container {
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 10px;
+  }
+
+  .historial .botones-container button {
+    margin-bottom: 10px;
+  }
+
+  .ver-historial-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+
+/* Estilos para dispositivos móviles hasta 1050px de ancho */
+@media only screen and (max-width: 1050px) {
+  #root {
+    position: relative;
+  }
+
+  .ver-historial-btn {
+    position: relative;
+    margin-top: 10px; 
+    font-size: 16px;
+    padding: 10px 15px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  form .column div select {
+    width: calc(100% - 20px); /* Resta el doble del relleno (10px a cada lado) para compensar */
+  }
+}
+
