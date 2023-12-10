@@ -64,7 +64,7 @@ Explore el historial de cotizaciones y realice acciones como borrar o imprimir c
 
 ## Links
 
-[Links](https://ju4n113.github.io/Proyecto_integrador_final_React/)
+[GitHub Page](https://ju4n113.github.io/Proyecto_integrador_final_React/)
 
 ## Authors
 
